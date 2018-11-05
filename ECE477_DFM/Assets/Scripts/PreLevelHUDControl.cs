@@ -17,7 +17,7 @@ public class PreLevelHUDControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (BLEControl.conctFlag) {
+        if (true /*BLEControl.conctFlag*/) {
 			var temp = ConnectStart.color;
 			temp.a = 0;
 			ConnectStart.color = temp;
